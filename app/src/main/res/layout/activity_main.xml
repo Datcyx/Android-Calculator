@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity" android:background="#FDFDFD">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="92dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp" android:layout_alignParentTop="true" android:layout_marginTop="211dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="1dp"
+            android:gravity="center" android:layout_centerInParent="true">
+
+        <Button
+                android:text="1"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm1"
+                android:layout_weight="0"
+
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:onClick="num1"/>
+        <Button
+                android:text="2"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm2"
+                android:layout_weight="0"
+                android:onClick="num2"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginLeft="5pt"/>
+        <Button
+                android:text="3"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm3"
+                android:layout_weight="0"
+                android:onClick="num3"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"
+                android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="4"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm4"
+                android:layout_weight="0"
+                android:onClick="num4"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="C"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/opdel"
+                android:layout_weight="0"
+                android:onClick="opdel"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#FF5252" android:backgroundTint="#FF5252"
+        /><![CDATA[
+
+
+        />
+        />
+        style="@style/Widget.AppCompat.Button"/>
+
+
+
+    ]]>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="92dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="-1dp" android:layout_alignParentTop="true" android:layout_marginTop="282dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="1dp"
+            android:gravity="center" android:layout_centerInParent="true">
+
+        <Button
+                android:text="5"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm5"
+                android:layout_weight="0"
+                android:onClick="num5"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"/>
+        <Button
+                android:text="6"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm6"
+                android:layout_weight="0"
+                android:onClick="num6"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginLeft="5pt"/>
+        <Button
+                android:text="7"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm7"
+                android:layout_weight="0"
+                android:onClick="num7"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"
+                android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="8"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm8"
+                android:layout_weight="0"
+                android:onClick="num8"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="+"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/opadd"
+                android:layout_weight="0"
+                android:onClick="opadd"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#883B3B" android:backgroundTint="#ccc"/><![CDATA[
+
+
+        />
+        />
+        style="@style/Widget.AppCompat.Button"/>
+
+
+
+    ]]>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="92dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp" android:layout_alignParentTop="true" android:layout_marginTop="358dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="2dp"
+            android:gravity="center" android:layout_centerInParent="true">
+
+        <Button
+                android:text="9"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm9"
+                android:layout_weight="0"
+                android:onClick="num9"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"/>
+        <Button
+                android:text="0"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/nm0"
+                android:layout_weight="0"
+                android:onClick="num0"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginLeft="5pt"/>
+        <Button
+                android:text="*"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/optimes"
+                android:layout_weight="0"
+                android:onClick="optimes"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"
+                android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="/"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/opdevice"
+                android:layout_weight="0"
+                android:onClick="opdevide"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="-"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/button22"
+                android:layout_weight="0"
+                android:onClick="opminus"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"/><![CDATA[
+
+
+        />
+        />
+        style="@style/Widget.AppCompat.Button"/>
+
+
+
+    ]]>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="92dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="-2dp" android:layout_alignParentTop="true" android:layout_marginTop="433dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="4dp"
+            android:gravity="center" android:layout_centerInParent="true">
+
+        <Button
+                android:text="ABOUT"
+                android:layout_width="64pt"
+                android:layout_height="30pt"
+                android:id="@+id/button29"
+                android:layout_weight="0"
+                android:onClick="opabout"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginRight="5pt"/>
+
+        <Button
+                android:text="(-)"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:id="@+id/button26"
+                android:layout_weight="0"
+                android:onClick="opnegative"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc" android:layout_marginRight="5dp"/>
+        <Button
+                android:text="="
+                android:layout_width="59pt"
+                android:layout_height="30pt"
+                android:id="@+id/numequal"
+                android:layout_weight="0"
+                android:onClick="opequal"
+                android:layout_marginTop="5pt" android:textSize="19sp"
+                android:background="#ccc" android:backgroundTint="#ccc"/><![CDATA[
+
+
+        />
+        />
+        style="@style/Widget.AppCompat.Button"/>
+
+
+
+    ]]>
+
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="209dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="209dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp" android:layout_alignParentTop="true" android:layout_marginTop="0dp"
+            android:background="#272626" android:gravity="bottom|right" android:scrollbars="vertical"
+            android:verticalScrollbarPosition="left">
+        <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/rset" android:layout_weight="0"
+                android:gravity="right" android:textColor="#FFFAFA" android:textSize="48sp"
+                android:layout_marginBottom="19px" android:layout_marginRight="20px" android:layout_marginTop="12pt"
+        />
+        <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/rset2" android:layout_weight="0"
+                android:gravity="right" android:textColor="#FFFAFA" android:textSize="48sp"
+                android:layout_marginBottom="19px" android:layout_marginRight="20px" android:layout_marginTop="2pt"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
